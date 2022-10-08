@@ -1,0 +1,24 @@
+para crear un repositorio en git hub se deben ejecutar los siguiente comandos:
+
+-Iniciar la consola powershell
+-Ingresamos a la ubicacion donde se quiera crear la carpeta
+-Para realizar el paso anterior hacemos uso del comando "mkdir _____" 
+-Una vez creada la carpeta procedemos a digitar el comando "code ." con el cual 
+se incia el vs code desde la carpeta anteriormente creada
+-Dentro del vs code creamos un archivo de cualquier tipo (txt, html, py, js)
+-Una vez dentro del vs code abrimos la consola de powershell
+-dentro de la consola escribimos el comando "git init"
+-De esta manera habremos creado un repositorio en blanco dentro de la carpeta creada
+-Con el comando "ls -h" mostramos la carpeta .git 
+-con el comadno "git status" miramos el estado de nuestro repositorio, el cual nos indica
+que no tenemos ningun comit cargado
+-ya teniendo creado el repositorio procedemos a realizar el comit para ello usamo el comando
+-lo primero que debemos hacer el usar el comando "git add ___________" para agregar los documentos
+al repositorio (en caso de querer agregar todos los archivos presentes en la carpeta usamos el comando "git add.")}
+-una vez mas usamos el comando "git status" para verificar el estado y observamos que el archivo 
+cambia de color rojo a verde esto nos quiere decir que estamos listos para el siguiente paso 
+-digitamos el comando (git  commit -m "Nombre que va a identificar el archivo" )
+-Una vez digitado el el comando anterior 
+-A continuación ingresamos el comando  "git remote add origin https://github.com/Jzea94/Commit_Prueba.git" para el cual
+sera necesario tener el enlace del repositorio el cual obtenemos en la pagina de github
+-Una vez realizado el paso anterior digitamos el comando "git push -u origin master" con el cual se sincroniza el repositorio
