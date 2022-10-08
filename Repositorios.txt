@@ -12,13 +12,14 @@ se incia el vs code desde la carpeta anteriormente creada
 -Con el comando "ls -h" mostramos la carpeta .git 
 -con el comadno "git status" miramos el estado de nuestro repositorio, el cual nos indica
 que no tenemos ningun comit cargado
--ya teniendo creado el repositorio procedemos a realizar el comit para ello usamo el comando
--lo primero que debemos hacer el usar el comando "git add ___________" para agregar los documentos
-al repositorio (en caso de querer agregar todos los archivos presentes en la carpeta usamos el comando "git add.")}
+-ya teniendo creado el repositorio procedemos a realizar el comit, para ello procedemos a ingresar el 
+comando "git add ___________" con el cual agregamos los archivos que deseamos cargas a github
+-(en caso de querer agregar todos los archivos presentes en la carpeta usamos el comando "git add .")
 -una vez mas usamos el comando "git status" para verificar el estado y observamos que el archivo 
 cambia de color rojo a verde esto nos quiere decir que estamos listos para el siguiente paso 
 -digitamos el comando (git  commit -m "Nombre que va a identificar el archivo" )
--Una vez digitado el el comando anterior 
+-Una vez digitado el el comando anterior procedemos a ingresar a la pagina de github y copiamos el link del repositorio 
+que acabamos de sincronizar.
 -A continuación ingresamos el comando  "git remote add origin https://github.com/Jzea94/Commit_Prueba.git" para el cual
 sera necesario tener el enlace del repositorio el cual obtenemos en la pagina de github
 -Una vez realizado el paso anterior digitamos el comando "git push -u origin master" con el cual se sincroniza el repositorio
